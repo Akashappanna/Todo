@@ -138,19 +138,17 @@ User can Toggle the state between 'Todo' and "Done" by clicking the Title,State 
 2. Todo : sorts the todo list which has a 'state : Todo'.
 3. In progress : sorts the todo list which has a 'state : In progress'.
 4. Done : sorts the todo list which has a 'state : Done'.
-5. clear filter : clears the filter and updates original data.
+5. Clear filter : clears the filter and updates original data.
 
 The app is made responsive using `npm i bootstrap` and tools icons are added using `npm react-icons`
 
-The development scripts
-In project directory
+The development scripts in project directory
 
 ### `npm install`
 
 ### `npm start`
 
-The production scripts
-In project directory
+The production scripts in project directory
 
 ### `npm run build`
 
