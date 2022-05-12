@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Just+Another+Hand&display=swap');
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+input, button{
+  border:none;
+  appearance: none;
+  outline:none;
+  background:none;
+}
+
+#add-text{
+  font-family: 'Just Another Hand';
+  position:relative;
+  top: -30px;
+    left: 20px;
+    font-size: 40px;
+}
+#add-text-img img{
+  width: 5%;
+    position: relative;
+    top: -10px;
+    left: 10px;
+}
+
+.loginapp{
+  height:100vh;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(to bottom right,#14213e,white);
+  transition:2s;
+}
+
+#root{
+  background-image: linear-gradient(to bottom right,#14213e,white);
+  transition:2s;
+}
+
+
+.form-inner{
+  padding:40px;
+  width:450px;
+  border-radius: 15px;
+  background-image: linear-gradient(to top left,#3c194a,white);
+}
+
+form .form-inner h3{
+  color:black;
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+form .form-inner .form-group{
+  display:block;
+  color:#5c4c8b;
+  font-size: 20px;
+  font-weight: 600;
+}
+form .form-inner .form-group label{
+  display: block;
+  font-size: 18px;
+  margin-bottom: 5px;
+  transition:0.4s;
+}
+
+form .form-inner .form-group:focus-within label{
+color:black;
+}
+
+form .form-inner .form-group input{
+  display: block;
+  font-size: 18px;
+  width:100%;
+  padding: 10px 15px;
+  background-color: white;
+  border-radius:15px;
+  margin-bottom: 5px;
+  transition:0.4s;
+}
+
+form .form-inner .form-group input:focus-within{
+  box-shadow: 0px 0px 20px 2px black;
+}
+
+form .form-inner input[type='submit']{
+  display:inline-block;
+  padding:10px 15px;
+  border-radius: 15px;
+  background-image: linear-gradient(to right,#090909,white);
+  background-size: 200%;
+  background-position: 0%;
+  transition:0.4s;
+  font-weight: 700;
+  cursor: pointer;
+  color:white;
+}
+
+form .form-inner input[type='submit']:hover{
+  background-position: 100% 0%;
+  color:black;
+}
+
+.error{
+  font-size: 20px;
+  font-weight: 600;
+}
+
+#todotable{
+  flex-wrap: wrap;
+  white-space: no-wrap;
+}
