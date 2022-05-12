@@ -148,6 +148,8 @@ The development scripts in project directory
 
 ### Note : '--force' has to be used since the project includes some older version packages.
 
+### After installing
+
 ### `npm start`
 
 The production scripts in project directory
