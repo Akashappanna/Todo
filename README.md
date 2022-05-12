@@ -144,7 +144,9 @@ The app is made responsive using `npm i bootstrap` and tools icons are added usi
 
 The development scripts in project directory
 
-### `npm install`
+### `npm install --force`
+
+### Note : '--force' has to be used since the project includes some older version packages.
 
 ### `npm start`
 
